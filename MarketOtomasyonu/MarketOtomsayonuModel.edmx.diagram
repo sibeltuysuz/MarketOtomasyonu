@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f300a408b6ac4477918040baefd55b17" Name="Diagram1">
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.Category" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.Customer" Width="1.5" PointX="2.125" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.Order_Details" Width="1.5" PointX="6" PointY="3.375" />
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.basket" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.Product" Width="1.5" PointX="3" PointY="3.25" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__basket__ProductI__44FF419A" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__Products__Catego__46E78A0C" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__Products__Catego__48CFD27E" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__Order_Det__Produ__4222D4EF" />
+        <EntityTypeShape EntityType="MarketOtomasyonuModel.Order" Width="1.5" PointX="4.375" PointY="8.375" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__Orders__Descript__3E52440B" />
+        <AssociationConnector Association="MarketOtomasyonuModel.FK__Order_Det__Quant__412EB0B6" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
