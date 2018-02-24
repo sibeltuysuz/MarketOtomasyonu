@@ -63,7 +63,7 @@
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(139, 265);
+            this.btnSil.Location = new System.Drawing.Point(137, 275);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(78, 27);
             this.btnSil.TabIndex = 23;
